@@ -1,0 +1,12 @@
+CHANGELOG
+=========
+
+BETA 4
+------
+
+  - Bug Fix: If anchored trails were used GT would crash 3dsmax if the 
+    referenced particle system changed.
+    
+  - Change "Spline Steps" minimum to 0 (was 1).
+  
+  

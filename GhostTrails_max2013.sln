@@ -1,0 +1,102 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33328.57
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GhostTrails_max2010", "GhostTrails_max2013.vcxproj", "{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Hybrid Max 2012|Win32 = Hybrid Max 2012|Win32
+		Hybrid Max 2012|x64 = Hybrid Max 2012|x64
+		Hybrid Max 2013|Win32 = Hybrid Max 2013|Win32
+		Hybrid Max 2013|x64 = Hybrid Max 2013|x64
+		Hybrid Max 2015|Win32 = Hybrid Max 2015|Win32
+		Hybrid Max 2015|x64 = Hybrid Max 2015|x64
+		Hybrid Max2009|Win32 = Hybrid Max2009|Win32
+		Hybrid Max2009|x64 = Hybrid Max2009|x64
+		Hybrid Max2010|Win32 = Hybrid Max2010|Win32
+		Hybrid Max2010|x64 = Hybrid Max2010|x64
+		Release Max 2012|Win32 = Release Max 2012|Win32
+		Release Max 2012|x64 = Release Max 2012|x64
+		Release Max 2013|Win32 = Release Max 2013|Win32
+		Release Max 2013|x64 = Release Max 2013|x64
+		Release Max 2015|Win32 = Release Max 2015|Win32
+		Release Max 2015|x64 = Release Max 2015|x64
+		Release Max 2017|Win32 = Release Max 2017|Win32
+		Release Max 2017|x64 = Release Max 2017|x64
+		Release Max 2018|Win32 = Release Max 2018|Win32
+		Release Max 2018|x64 = Release Max 2018|x64
+		Release Max 2019|Win32 = Release Max 2019|Win32
+		Release Max 2019|x64 = Release Max 2019|x64
+		Release Max 2020|Win32 = Release Max 2020|Win32
+		Release Max 2020|x64 = Release Max 2020|x64
+		Release Max 2022|Win32 = Release Max 2022|Win32
+		Release Max 2022|x64 = Release Max 2022|x64
+		Release Max 2023|Win32 = Release Max 2023|Win32
+		Release Max 2023|x64 = Release Max 2023|x64
+		Release Max 2024|Win32 = Release Max 2024|Win32
+		Release Max 2024|x64 = Release Max 2024|x64
+		Release Max2010|Win32 = Release Max2010|Win32
+		Release Max2010|x64 = Release Max2010|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Hybrid Max 2012|Win32.ActiveCfg = Hybrid Max 2012|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Hybrid Max 2012|x64.ActiveCfg = Hybrid Max 2012|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Hybrid Max 2012|x64.Build.0 = Hybrid Max 2012|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Hybrid Max 2013|Win32.ActiveCfg = Hybrid Max 2013|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Hybrid Max 2013|x64.ActiveCfg = Hybrid Max 2013|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Hybrid Max 2013|x64.Build.0 = Hybrid Max 2013|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Hybrid Max 2015|Win32.ActiveCfg = Hybrid Max 2015|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Hybrid Max 2015|x64.ActiveCfg = Hybrid Max 2015|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Hybrid Max 2015|x64.Build.0 = Hybrid Max 2015|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Hybrid Max2009|Win32.ActiveCfg = Hybrid Max2009|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Hybrid Max2009|x64.ActiveCfg = Hybrid Max2009|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Hybrid Max2009|x64.Build.0 = Hybrid Max2009|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Hybrid Max2010|Win32.ActiveCfg = Release Max 2018|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Hybrid Max2010|Win32.Build.0 = Release Max 2018|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Hybrid Max2010|x64.ActiveCfg = Hybrid Max2010 32|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Hybrid Max2010|x64.Build.0 = Hybrid Max2010 32|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max 2012|Win32.ActiveCfg = Release Max 2012|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max 2012|x64.ActiveCfg = Release Max 2012|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max 2012|x64.Build.0 = Release Max 2012|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max 2013|Win32.ActiveCfg = Release Max 2013|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max 2013|x64.ActiveCfg = Release Max 2013|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max 2013|x64.Build.0 = Release Max 2013|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max 2015|Win32.ActiveCfg = Release Max 2015|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max 2015|x64.ActiveCfg = Release Max 2015|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max 2015|x64.Build.0 = Release Max 2015|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max 2017|Win32.ActiveCfg = Release Max 2017|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max 2017|x64.ActiveCfg = Release Max 2017|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max 2017|x64.Build.0 = Release Max 2017|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max 2018|Win32.ActiveCfg = Release Max 2018|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max 2018|Win32.Build.0 = Release Max 2018|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max 2018|x64.ActiveCfg = Release Max 2018|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max 2018|x64.Build.0 = Release Max 2018|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max 2019|Win32.ActiveCfg = Release Max 2019|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max 2019|x64.ActiveCfg = Release Max 2019|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max 2019|x64.Build.0 = Release Max 2019|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max 2020|Win32.ActiveCfg = Release Max 2020|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max 2020|x64.ActiveCfg = Release Max 2020|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max 2020|x64.Build.0 = Release Max 2020|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max 2022|Win32.ActiveCfg = Release Max 2022|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max 2022|Win32.Build.0 = Release Max 2022|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max 2022|x64.ActiveCfg = Release Max 2022|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max 2022|x64.Build.0 = Release Max 2022|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max 2023|Win32.ActiveCfg = Release Max 2023|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max 2023|x64.ActiveCfg = Release Max 2023|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max 2023|x64.Build.0 = Release Max 2023|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max 2024|Win32.ActiveCfg = Release Max 2024|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max 2024|x64.ActiveCfg = Release Max 2024|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max 2024|x64.Build.0 = Release Max 2024|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max2010|Win32.ActiveCfg = Release Max2010|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max2010|x64.ActiveCfg = Release Max2010|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max2010|x64.Build.0 = Release Max2010|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6262F9C3-7CA3-4003-B480-58C25524A773}
+	EndGlobalSection
+EndGlobal

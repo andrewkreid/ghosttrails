@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GhostTrails_vc2005", "GhostTrails_vc2005.vcproj", "{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Hybrid Max6|Win32 = Hybrid Max6|Win32
+		Hybrid Max6|x64 = Hybrid Max6|x64
+		Hybrid Max9 64|Win32 = Hybrid Max9 64|Win32
+		Hybrid Max9 64|x64 = Hybrid Max9 64|x64
+		Hybrid Max9|Win32 = Hybrid Max9|Win32
+		Hybrid Max9|x64 = Hybrid Max9|x64
+		Release 3dsmax2009 64|Win32 = Release 3dsmax2009 64|Win32
+		Release 3dsmax2009 64|x64 = Release 3dsmax2009 64|x64
+		Release Max6|Win32 = Release Max6|Win32
+		Release Max6|x64 = Release Max6|x64
+		Release Max9 64|Win32 = Release Max9 64|Win32
+		Release Max9 64|x64 = Release Max9 64|x64
+		Release Max9|Win32 = Release Max9|Win32
+		Release Max9|x64 = Release Max9|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Hybrid Max6|Win32.ActiveCfg = Hybrid Max6|Win32
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Hybrid Max6|Win32.Build.0 = Hybrid Max6|Win32
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Hybrid Max6|x64.ActiveCfg = Debug|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Hybrid Max6|x64.Build.0 = Hybrid Max6|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Hybrid Max9 64|Win32.ActiveCfg = Hybrid Max9 64|Win32
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Hybrid Max9 64|Win32.Build.0 = Hybrid Max9 64|Win32
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Hybrid Max9 64|x64.ActiveCfg = Hybrid Max9 64|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Hybrid Max9 64|x64.Build.0 = Hybrid Max9 64|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Hybrid Max9|Win32.ActiveCfg = Hybrid Max9|Win32
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Hybrid Max9|Win32.Build.0 = Hybrid Max9|Win32
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Hybrid Max9|x64.ActiveCfg = Hybrid Max9|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Hybrid Max9|x64.Build.0 = Hybrid Max9|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release 3dsmax2009 64|Win32.ActiveCfg = Release 3dsmax2009 64|Win32
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release 3dsmax2009 64|Win32.Build.0 = Release 3dsmax2009 64|Win32
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release 3dsmax2009 64|x64.ActiveCfg = Release 3dsmax2009 64|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release 3dsmax2009 64|x64.Build.0 = Release 3dsmax2009 64|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max6|Win32.ActiveCfg = Release Max6|Win32
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max6|Win32.Build.0 = Release Max6|Win32
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max6|x64.ActiveCfg = Release Max6|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max6|x64.Build.0 = Release Max6|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max9 64|Win32.ActiveCfg = Release Max9 64|Win32
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max9 64|Win32.Build.0 = Release Max9 64|Win32
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max9 64|x64.ActiveCfg = Release Max9 64|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max9 64|x64.Build.0 = Release Max9 64|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max9|Win32.ActiveCfg = Release Max9|Win32
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max9|Win32.Build.0 = Release Max9|Win32
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max9|x64.ActiveCfg = Release Max9|x64
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max9|x64.Build.0 = Release Max9|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

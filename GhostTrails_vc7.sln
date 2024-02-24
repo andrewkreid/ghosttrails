@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GhostTrails", "GhostTrails_vc7.vcproj", "{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Hybrid Max6
+		ConfigName.1 = Release Max6
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Hybrid Max6.ActiveCfg = Hybrid Max6|Win32
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Hybrid Max6.Build.0 = Hybrid Max6|Win32
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max6.ActiveCfg = Release Max6|Win32
+		{B23AC54F-C880-4EED-A5BC-CED61A5CFC2B}.Release Max6.Build.0 = Release Max6|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,478 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PANEL_MAIN DIALOGEX 0, 0, 108, 156
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "About...",IDC_ABOUT,36,19,39,14
+    CONTROL         "Moving Trail",IDC_MAIN_TYPE_MOVING,"Button",BS_AUTORADIOBUTTON,7,55,67,10
+    RTEXT           "Frames to Lag:",IDC_MAIN_TEXT3,7,68,49,10,SS_CENTERIMAGE
+    CONTROL         "",IDC_MAIN_FRAMES_EDIT,"CustEdit",WS_TABSTOP,57,68,35,10
+    CONTROL         "Anchored Trail",IDC_MAIN_TYPE_ANCHORED,"Button",BS_AUTORADIOBUTTON,7,83,71,10
+    CONTROL         "Specify Range",IDC_MAIN_USERANGE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,98,75,10
+    RTEXT           "Start Frame:",IDC_MAIN_TEXT1,7,111,42,10,SS_CENTERIMAGE
+    CONTROL         "",IDC_MAIN_STARTFRAME_EDIT,"CustEdit",WS_TABSTOP,55,111,37,10
+    RTEXT           "End Frame:",IDC_MAIN_TEXT2,7,123,42,10,SS_CENTERIMAGE
+    CONTROL         "",IDC_MAIN_ENDFRAME_EDIT,"CustEdit",WS_TABSTOP,55,123,37,10
+    CONTROL         "",IDC_MAIN_FRAMES_SPIN,"SpinnerControl",0x0,93,68,7,10
+    CONTROL         "",IDC_MAIN_STARTFRAME_SPIN,"SpinnerControl",0x0,93,111,7,10
+    CONTROL         "",IDC_MAIN_ENDFRAME_SPIN,"SpinnerControl",0x0,93,123,7,10
+    CTEXT           "GhostTrails 3.70",IDC_STATIC,7,7,94,9
+    CTEXT           "Free Version",IDC_MAIN_LICTEXT,7,39,94,10
+    CONTROL         "Enable Debug Logging",IDC_ENABLE_LOGGING,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,139,89,10
+END
+
+IDD_PANEL_MESHPARAMS DIALOGEX 0, 0, 108, 167
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_SEGSPERFRAME_EDIT,"CustEdit",WS_TABSTOP,60,17,29,10
+    CONTROL         "",IDC_SPLINESTEPS_EDIT,"CustEdit",WS_TABSTOP,59,57,29,10
+    RTEXT           "U Repeat :",IDC_MESHPARAMS_TEXT3,13,88,49,10,SS_CENTERIMAGE
+    CONTROL         "",IDC_UREPEAT_EDIT,"CustEdit",WS_TABSTOP,64,88,29,10
+    CONTROL         "Flip Normals",IDC_FLIPNORMALS,"Button",BS_AUTOCHECKBOX | BS_LEFT | BS_VCENTER | WS_TABSTOP,7,113,56,10
+    CONTROL         "Generate Mapping",IDC_GENERATE_MAP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,123,75,10
+    CONTROL         "",IDC_SEGSPERFRAME_SPIN,"SpinnerControl",0x0,90,17,7,10
+    CONTROL         "",IDC_SPLINESTEPS_SPIN,"SpinnerControl",0x0,89,57,7,10
+    CONTROL         "",IDC_UREPEAT_SPIN,"SpinnerControl",0x0,94,88,7,10
+    LTEXT           "Map Type :",IDC_STATIC,19,137,37,12,SS_CENTERIMAGE,WS_EX_RIGHT
+    CONTROL         "Stretch",IDC_MAPTYPE_STRETCH,"Button",BS_AUTORADIOBUTTON | BS_VCENTER,61,148,39,12
+    CONTROL         "String",IDC_MAPTYPE_STRING,"Button",BS_AUTORADIOBUTTON | BS_VCENTER,61,137,39,12
+    RTEXT           "Number of Mtls :",IDC_MESHPARAMS_TEXT4,7,100,55,10,SS_CENTERIMAGE
+    CONTROL         "",IDC_NUMMTLS_EDIT,"CustEdit",WS_TABSTOP,64,100,29,10
+    CONTROL         "",IDC_NUMMTLS_SPIN,"SpinnerControl",0x0,94,100,7,10
+    RTEXT           "Viewport :",IDC_SEGSPERFRAME_VIEWPORT_LABEL,16,17,41,10
+    CONTROL         "",IDC_SEGSPERFRAME_RENDER_EDIT,"CustEdit",WS_DISABLED | WS_TABSTOP,60,29,29,10
+    CONTROL         "",IDC_SEGSPERFRAME_RENDER_SPIN,"SpinnerControl",WS_DISABLED,90,29,7,10
+    RTEXT           "Render :",IDC_SEGSPERFRAME_RENDER_LABEL,25,29,32,10,WS_DISABLED
+    RTEXT           "Viewport :",IDC_SPLINESTEPS_VIEWPORT_LABEL,15,57,41,10
+    RTEXT           "Render :",IDC_SPLINESTEPS_RENDER_LABEL,27,69,29,10,WS_DISABLED
+    CONTROL         "",IDC_SPLINESTEPS_RENDER_EDIT,"CustEdit",WS_DISABLED | WS_TABSTOP,59,69,29,10
+    CONTROL         "",IDC_SPLINESTEPS_RENDER_SPIN,"SpinnerControl",WS_DISABLED,89,69,7,10
+    GROUPBOX        "Segments/frame",IDC_STATIC,7,7,94,36
+    CONTROL         "",IDC_SEGMENT_IS_RENDER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,28,13,10
+    GROUPBOX        "Spline Steps",IDC_STATIC,7,47,94,37
+    CONTROL         "",IDC_SPLINESTEPS_IS_RENDER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,68,13,10
+END
+
+IDD_PANEL_APPLY DIALOGEX 0, 0, 108, 108
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Apply",IDC_APPLY_APPLY,29,6,50,14
+    CONTROL         "Apply Fade",IDC_APPLY_FADE_B,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,79,85,10
+    RTEXT           "Midpoint:",IDC_APPLY_FADE_TEXT1,7,91,49,10,SS_CENTERIMAGE
+    CONTROL         "",IDC_APPLY_FADE_MP_EDIT,"CustEdit",WS_TABSTOP,57,91,35,10
+    CONTROL         "",IDC_APPLY_FADE_MP_SPIN,"SpinnerControl",0x0,93,91,7,10
+    CONTROL         "Apply Texture",IDC_APPLY_TEX_B,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,24,87,10
+    LTEXT           "Not selected",IDC_APPLY_TEX_TEXT,17,36,82,10
+    PUSHBUTTON      "...",IDC_APPLY_TEX_BROWSE,87,46,13,13
+    EDITTEXT        IDC_APPLY_TEX_EDIT,16,46,71,13,ES_AUTOHSCROLL,WS_EX_RIGHT | WS_EX_RTLREADING
+    RTEXT           "V Repeat:",IDC_APPLY_TEX_TEXT2,7,63,48,8,SS_CENTERIMAGE
+    CONTROL         "",IDC_APPLY_TEX_VREPEAT_EDIT,"CustEdit",WS_TABSTOP,57,63,35,10
+    CONTROL         "",IDC_APPLY_TEX_VREPEAT_SPIN,"SpinnerControl",0x0,93,63,7,10
+    CONTROL         "Fade Out",IDC_APPLY_FADE_IN,"Button",BS_AUTORADIOBUTTON | NOT WS_VISIBLE,38,7,63,10
+    CONTROL         "Fade In",IDC_APPLY_FADE_OUT,"Button",BS_AUTORADIOBUTTON | NOT WS_VISIBLE,38,7,63,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_PANEL_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 101
+        VERTGUIDE, 55
+        VERTGUIDE, 56
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 149
+    END
+
+    IDD_PANEL_MESHPARAMS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 101
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 160
+    END
+
+    IDD_PANEL_APPLY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 101
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 101
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,7,0,0
+ PRODUCTVERSION 3,7,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "GhostTrails ghosting modifier for 3dsmax"
+            VALUE "CompanyName", "http://www.ghosttrails.net"
+            VALUE "FileDescription", "GhostTrails"
+            VALUE "FileVersion", "3.7.0.0"
+            VALUE "InternalName", "GhostTrails"
+            VALUE "LegalCopyright", "Copyright 2000-2024 Andrew Reid"
+            VALUE "OriginalFilename", "GhostTrails.dlm"
+            VALUE "ProductName", "GhostTrails"
+            VALUE "ProductVersion", "3.7.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_PANEL_MAIN AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_LIBDESCRIPTION      "GhostTrails"
+    IDS_CATEGORY            "Bytegeist Software"
+    IDS_CLASS_NAME          "GhostTrails"
+    IDS_PARAMS1             "Parameters"
+    IDS_SPIN                "Spin"
+    IDS_FRAMES_SPIN         "Frames"
+    IDS_SEGMENTS_SPIN       "Segments"
+    IDS_FLIPNORMALS         "Flip Normals"
+    IDS_OLDFRAMES_SPIN      "Frames"
+    IDS_SPLINESTEPS_SPIN    "Spline Steps"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STARTFRAME_SPIN     "Start Frame"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ENDFRAME_SPIN       "End Frame"
+    IDS_SEGSPERFRAME_SPIN   "Segments Per Frame"
+    IDS_PARAMS2             "Mesh Parameters"
+    IDS_MOVINGORANCHORED    "Type"
+    IDS_UREPEAT_SPIN        "U Repeat"
+    IDS_VREPEAT_SPIN        "V Repeat"
+    IDS_PARAMS4             "Particle Trails"
+    IDS_APPLY_TEX_B         "Apply Texture"
+    IDS_APPLY_TEX_EDIT      "Texture Path"
+    IDS_APPLY_FADE_B        "Fade"
+    IDS_APPLY_FADE_START    "Fade Start Color"
+    IDS_APPLY_FADE_END      "Fade End Color"
+    IDS_APPLY_FADE_TO       "Fade To"
+    IDS_APPLY_REORIENT_B    "Reorient"
+    IDS_APPLY_TEX_VREPEAT   "Repeat lengthways"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_APPLY_FADE_MP       "Fade Midpoint (similar to gradient midpoint)"
+    IDS_APPLY_FADE_INOUT    "Fade-In or Fade-Out"
+    IDS_PARAMS3             "Effects"
+    IDS_USERANGE            "Use Range"
+    IDS_PARTICLE_B          "Use Particle Trails"
+    IDS_PARTICLE_NODE       "Particle Node"
+    IDS_PARTICLE_NODE_PROMPT "Choose a Particle System"
+    IDS_GENERATE_MAP        "Generate UV Mapping"
+    IDS_GENERATE_AGE_MAP    "Generate Particle Age UV Mapping"
+    IDS_PARTICLE_BANK       "Use Particle Trail Banking"
+    IDS_USEALLPFEVENTS      "Use all Events"
+    IDS_PFEVENTLIST         "Event List"
+    IDS_ADDEVENTS           "Add Events"
+    IDS_SKIPPART            "every n'th particle"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STARTPART           "Start at particle n"
+    IDS_MAPTYPE             "Map Type"
+    IDS_NUMMTLS             "Number Of Materials"
+    IDS_SEGSPERFRAME_RENDER "Segments Per Frame (render)"
+    IDS_SPLINESTEPS_RENDER  "Spline Steps (render)"
+    IDS_SEGSPERFRAME_USE_RENDER "Segments Per Frame (render) enabled."
+    IDS_SPLINESTEPS_USE_RENDER "Spline Steps (render) enabled"
+    IDS_USE_PFLOW_MTLIDS    "Use PFlow Material IDs"
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (Australia) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENA)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_AUS
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTDLG DIALOGEX 0, 0, 257, 186
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About GhostTrails"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,103,165,50,14
+    CTEXT           "Version 3.70",IDC_STATIC,7,75,243,10
+    CTEXT           "Written by Andrew Reid (andrew.k.reid@gmail.com), Anthony Cassidy, and Co.\n",IDC_STATIC,7,137,243,21
+    CONTROL         IDB_BITMAP2,IDC_STATIC,"Static",SS_BITMAP | SS_CENTERIMAGE | SS_REALSIZEIMAGE,7,7,243,67
+    CTEXT           "",IDC_ABOUT_LICTEXT,7,90,243,24
+    CTEXT           "Visit the GhostTrails website at http://www.ghosttrails.net",IDC_STATIC,7,121,243,13
+END
+
+IDD_REGISTER DIALOGEX 0, 0, 336, 105
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Register Product"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,114,84,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,190,84,53,14
+    EDITTEXT        IDC_REG_EDIT2,5,22,324,12,ES_AUTOHSCROLL
+    LTEXT           "Enter your registration code in the field below:",-1,5,6,324,8
+    EDITTEXT        IDC_REG_WEBPAGE,5,63,290,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "To obtain a valid registration key please visit:",IDC_REG_TEXT4,5,44,150,8
+    PUSHBUTTON      "Go!",IDC_REG_GO,302,60,27,16
+END
+
+IDD_PANEL_PARTICLE DIALOGEX 0, 0, 108, 305
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "Use particle trails",IDC_PARTICLE_ENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,4,7,69,10
+    CONTROL         "Choose Particle System...",IDC_PARTICLE_CHOOSE,
+                    "CustButton",WS_TABSTOP,10,21,87,14
+    CONTROL         "Regenerate Trails...",IDC_PARTICLE_GENERATE,"CustButton",WS_TABSTOP,10,38,87,14
+    LTEXT           "every",IDC_STATIC,10,70,19,10,SS_CENTERIMAGE
+    CONTROL         "",IDC_PARTICLE_SKIPPARTS_EDIT,"CustEdit",WS_TABSTOP,34,70,20,10
+    LTEXT           "starting at particle ",IDC_MAIN_TEXT3,10,83,57,10,SS_CENTERIMAGE
+    CONTROL         "",IDC_PARTICLE_STARTPART_EDIT,"CustEdit",WS_TABSTOP,68,83,20,10
+    CONTROL         "Use All PFlow Events",IDC_USEALLPF,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,4,103,99,10
+    LTEXT           "PFlow Events:",IDC_STATIC,4,117,46,8
+    LISTBOX         IDC_PFLIST,4,127,99,84,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Add",IDC_ADDPF_EVENT_BUTTON,4,216,45,11
+    CONTROL         "Remove",IDC_PFREMOVE,"CustButton",WS_TABSTOP,58,216,45,11
+    CONTROL         "Generate Age Mapping",IDC_GENERATE_AGE_MAP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,4,238,89,12
+    CONTROL         "",IDC_PARTICLE_SKIPPARTS_SPIN,"SpinnerControl",0x0,54,70,7,10
+    CONTROL         "",IDC_PARTICLE_STARTPART_SPIN,"SpinnerControl",0x0,88,83,7,10
+    LTEXT           "(channel 2)",IDC_STATIC,57,249,36,8
+    LTEXT           "particle(s)",IDC_STATIC,65,70,36,10,SS_CENTERIMAGE
+    LTEXT           "Create Trails:",IDC_STATIC,4,58,47,10,SS_CENTERIMAGE
+    CONTROL         "Snapshot Path...",IDC_PATH_SNAPSHOT,"CustButton",WS_TABSTOP,10,284,87,14
+    CONTROL         "Use PFlow Material IDs",IDC_USE_PFLOW_MTLIDS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,4,265,99,10
+END
+
+IDD_PROGRESSDLG DIALOG 0, 0, 186, 71
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "GhostTrails"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,67,50,50,14
+    LTEXT           "Recalculating Particle Trails...",IDC_STATIC,46,11,94,8
+    CONTROL         "Progress1",IDC_PROGRESS,"msctls_progress32",WS_BORDER,7,28,172,14
+END
+
+IDD_ADD_DIALOG DIALOGEX 0, 0, 154, 189
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Add Particle Flow Events"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,24,168,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,80,168,50,14
+    LISTBOX         IDC_EVENTLIST,7,7,140,153,LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 250
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 179
+    END
+
+    IDD_REGISTER, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 329
+        VERTGUIDE, 167
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 98
+    END
+
+    IDD_PANEL_PARTICLE, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 103
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 298
+    END
+
+    IDD_PROGRESSDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    IDD_ADD_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 147
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 182
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_ABOUTDLG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_PANEL_PARTICLE AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_GTLOGO              BITMAP                  "res\\trails_bgthin.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// IMAGE
+//
+
+IDR_IMAGE1              IMAGE                   "res\\tire1.jpg"
+
+#endif    // English (Australia) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

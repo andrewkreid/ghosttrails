@@ -1,0 +1,9 @@
+*.suo
+x64/
+*.aps
+ipch/
+*.sdf
+GhostTrails_max2013.VC.VC.opendb
+GhostTrails_max2013.VC.db
+.vs/
+RCa12100

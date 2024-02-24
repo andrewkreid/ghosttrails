@@ -1,0 +1,171 @@
+CHANGELOG
+=========
+
+3.6.1.0 (2014-06-29)
+-------
+
+  - Change reading of license code from registry to work better when
+    using roaming profiles in Windows.
+  - Support for 3dsmax 2015.
+
+3.6.0.0 (64-bit only)
+-------
+
+	- Support for 3dsmax 2013 (64-bit)
+
+3.5.9.0 (64-bit only)
+-------
+
+	- Fixed threading bug which would cause 3dsmax to intermittently
+	  crash when regenerating particle trails on multi-core systems.
+	  There is no longer a pop-up progress dialog for particle trail 
+	  generation and it is currently not possible to cancel an in-progress
+	  regeneration.
+
+3.5.8.0 (64-bit only)
+-------
+
+	- Added debug logging option to help diagnose crash bugs
+
+3.5.7.0 (64-bit only)
+-------
+
+	- Fix a bug where having items in the Particle Flow event list
+	  would prevent the trail from rendering.
+
+3.5.6.0
+-------
+
+	- Increase maximum for segments per frame from 10 to 10000
+	- Tidy up registration dialog so "go to site" button works.
+
+3.5.5.0
+-------
+
+	- Fix bug which broke GT mesh generation when image motion blur
+	  was used at the start or end of the active time segment.
+
+3.5.4.0
+-------
+
+	- Fix bug with not responding to cache dump messages from dependent
+	  particle systems. This was causing crashes during rendering of
+	  particle trails.
+
+3.5.3.0
+-------
+
+    - Rebuild for 3dsmax2010 32 and 64-bit. 
+
+3.5.2.0
+-------
+
+    - Add ability to control the number of material IDs assigned
+	  to particle trails.
+
+	- Add MaxScript access to the "Recalulate Trails" button 
+	  (eg "$.modifiers[#GhostTrails].regenerate_particle_trails()")
+
+    - Fix a problem with render crashes with instanced GT modifiers.
+
+3.5.1.0
+-------
+
+	- Fix problem with mesh generation when frames to lag was set
+	  to 0 or below. Seems to only affect 3dsmax2008.
+
+3.5.0.0
+-------
+     
+	- 3dsmax9/3dsmax2008 64-bit build.
+	- Fix a crash bug in 3dsmax9 when an incorrect reg code was entered.
+	- Add string/stretch mapping.
+
+3.0.9.0
+-------
+
+	- 3dsmax9 build (32-bit only).
+
+3.0.8.0
+-------
+
+  - Make anchored trail mapping faster and more correct.
+  - Increase start/end spinner ranges to 10m ticks (about 600000 frames).
+
+3.0.7.0
+-------
+
+  - Fix bug that could crash 3dsmax when the "About" dialog was closed.
+
+3.0.6.0
+-------
+
+  - Change start and end frame spinners for anchored trails to respect the 
+    current time unit (SMPTE, ticks etc.). Change is NOT backwards compatible.
+    Times will not be converted to/from the older format (files will load but the
+    times will be wrong).
+
+3.0.5.0
+-------
+
+  - Bug Fix: Reset TM to current frame after calcs to prevent loops when
+             binding to space warps.
+
+3.0.4.0
+-------
+
+  - Bug Fix: U-Repeat not working properly
+  - Bug Fix: Anchored trail UV calculation didn't take parent transform into account.
+
+3.0.3.0
+-------
+
+  - Bug Fix: Copied GT modifiers still referred to the original Object.
+
+3.0.2.0
+-------
+
+  - Bug Fix: Setting a range on anchored trails was broken (since RC2)
+
+
+3.0.1.0
+-------
+
+  - Smoothly interpolate particle trails in subframe intervals.
+
+RC 2
+----
+
+  - Bug Fix: Particle trails not working if active time segment
+    started at a frame other than 0.
+
+BETA 6
+------
+
+  - Bug Fix: Instanced GT modifiers now work. 
+  - Can generate trails for a subset of particle flow events
+  - Can now generate trails for every n'th particle
+  - Extend beta period to end of June '04
+
+
+BETA 5
+------
+
+  - Have the spline in 3dsmax4-style particle systems automatically
+    orient itself to follow the path of the particle's motion.
+
+  - Particle Trails are now enabled in "demo" mode for unregistered users.
+    Trails will only be calculated for frames 0 to 50.
+    
+  - Make "U Repeat" parameter work for the Age Mapping.
+
+
+BETA 4
+------
+
+  - Bug Fix: If anchored trails were used GT would crash 3dsmax if the 
+    referenced particle system changed.
+    
+  - Change "Spline Steps" minimum to 0 (was 1).
+  
+  

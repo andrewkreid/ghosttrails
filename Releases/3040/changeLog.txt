@@ -1,0 +1,63 @@
+CHANGELOG
+=========
+
+$Id: changeLog.txt,v 1.1 2005/07/02 12:20:31 administrator Exp $
+
+3.0.4.0
+-------
+
+  - Bug Fix: U-Repeat not working properly
+  - Bug Fix: Anchored trail UV calculation didn't take parent transform into account.
+
+3.0.3.0
+-------
+
+  - Bug Fix: Copied GT modifiers still referred to the original Object.
+
+3.0.2.0
+-------
+
+  - Bug Fix: Setting a range on anchored trails was broken (since RC2)
+
+
+3.0.1.0
+-------
+
+  - Smoothly interpolate particle trails in subframe intervals.
+
+RC 2
+----
+
+  - Bug Fix: Particle trails not working if active time segment
+    started at a frame other than 0.
+
+BETA 6
+------
+
+  - Bug Fix: Instanced GT modifiers now work. 
+  - Can generate trails for a subset of particle flow events
+  - Can now generate trails for every n'th particle
+  - Extend beta period to end of June '04
+
+
+BETA 5
+------
+
+  - Have the spline in 3dsmax4-style particle systems automatically
+    orient itself to follow the path of the particle's motion.
+
+  - Particle Trails are now enabled in "demo" mode for unregistered users.
+    Trails will only be calculated for frames 0 to 50.
+    
+  - Make "U Repeat" parameter work for the Age Mapping.
+
+
+BETA 4
+------
+
+  - Bug Fix: If anchored trails were used GT would crash 3dsmax if the 
+    referenced particle system changed.
+    
+  - Change "Spline Steps" minimum to 0 (was 1).
+  
+  
